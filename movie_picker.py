@@ -1,6 +1,9 @@
-from bs4 import BeautifulSoup as get_soup
-import requests
 import random
+import requests
+from bs4 import BeautifulSoup as get_soup
+
+
+
 def movies(url):
     page = requests.get(url)
     soup = get_soup(page.text, 'html.parser')
