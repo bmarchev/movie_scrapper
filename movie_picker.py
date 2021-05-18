@@ -33,5 +33,6 @@ def imd_movie_picker():
         ctr=ctr+1
         if (ctr==5):
           break;
-if __name__ == '__main__':
-    imd_movie_picker()
+
+
+imd_movie_picker()
